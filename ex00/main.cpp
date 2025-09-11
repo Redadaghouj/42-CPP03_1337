@@ -1,11 +1,13 @@
 #include "ClapTrap.hpp"
 #include <iostream>
 
-void testHeader(const std::string& testName) {
+void testHeader(const std::string& testName)
+{
     std::cout << "\n\033[1;36m=== " << testName << " ===\033[0m" << std::endl;
 }
 
-int main() {
+int main()
+{
     testHeader("Test 1: Energy Point Management");
     {
         ClapTrap bot("CT-2");
@@ -36,5 +38,5 @@ int main() {
             bot.beRepaired(1);
         }
     }
-    return 0;
+    return (0);
 }
