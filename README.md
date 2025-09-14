@@ -7,7 +7,7 @@
  
 ### Inheritance
 
-----
+---
 
 ## 📜 Project Overview
 
